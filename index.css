@@ -1,0 +1,117 @@
+/* Estilos generales */
+
+/* Use of external CSS but inside the HTML
+
+<style type="text/css">
+h1{ 
+color:red;
+}
+</style>
+*/
+
+.contenedor{
+    background-color: white;
+    height: 200px;
+    padding: 20px;
+}
+
+.contenedor button{
+background-color: blueviolet;
+padding: 10px;
+border: 1px solid black;
+border-radius: 10px;
+transition-duration: 5s;
+}
+
+.contenedor button:hover{
+    background-color: black;
+    color: red;
+    padding: 12 px;
+    border: 2px solid blue;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Establece la fuente */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Color de fondo */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.prueba {
+    color: blue;
+}
+
+#unico {
+    color: red;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #333; /* Color de fondo oscuro */
+    color: white; /* Color de texto blanco */
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilos para el menú de navegación */
+nav {
+    background-color: #444; /* Color de fondo del menú */
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline; /* Hace que los elementos de la lista se alineen horizontalmente */
+    margin-right: 20px; /* Espacio entre los enlaces */
+}
+
+nav ul li a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: white; /* Color del texto del enlace */
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Cambia el color de fondo cuando se pasa el mouse */
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white; /* Fondo blanco para las secciones */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor de las secciones */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
