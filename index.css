@@ -9,34 +9,7 @@ color:red;
 </style>
 */
 
-.contenedor{
-    background-color: white;
-    height: 200px;
-    padding: 20px;
-}
-
-.contenedor button{
-background-color: blueviolet;
-padding: 10px;
-border: 1px solid black;
-border-radius: 10px;
-transition-duration: 5s;
-}
-
-.contenedor button:hover{
-    background-color: black;
-    color: red;
-    padding: 12 px;
-    border: 2px solid blue;
-}
-
-body {
-    font-family: Arial, sans-serif; /* Establece la fuente */
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4; /* Color de fondo */
-}
-
+/* Default settings in a css file*/
 *{
     margin: 0;
     padding: 0;
@@ -44,15 +17,52 @@ body {
 }
 
 
+.contenedor{
+    background-color: white;
+    height: 100px;
+    padding: 20px;
+}
+
+.contenedor button{
+background-color: green;
+padding: 10px;
+border: 1px solid black;
+border-radius: 10px;
+transition-duration: 2s;
+}
+
+
+.contenedor button:hover{
+    background-color: black;
+    color: red;
+    padding: 12 px;
+    border: 2px solid blue;
+    border-radius: 100px;
+    transition-duration: 1s;
+}
+
+
+
+/* Style by class*/
 .prueba {
     color: blue;
 }
 
+/* Style by identifier*/
 #unico {
     color: red;
 }
 
-/* Estilo para el encabezado */
+/* Style by tag style spefically for the body*/
+body {
+    font-family: Arial, sans-serif; /* Establece la fuente */
+    margin: 0;
+    padding: 0;
+    background-color: gray; /* Color de fondo */
+}
+
+
+/* Style by tag, style spefically for the header*/
 header {
     background-color: #333; /* Color de fondo oscuro */
     color: white; /* Color de texto blanco */
@@ -64,6 +74,7 @@ header h1 {
     margin: 0;
 }
 
+/* Style by the path of the desired tag, style spefically for the header*/
 /* Estilos para el menú de navegación */
 nav {
     background-color: #444; /* Color de fondo del menú */
@@ -78,7 +89,8 @@ nav ul {
 
 nav ul li {
     display: inline; /* Hace que los elementos de la lista se alineen horizontalmente */
-    margin-right: 20px; /* Espacio entre los enlaces */
+    margin-right: 10px; /* Espacio entre los enlaces */
+    
 }
 
 nav ul li a {
