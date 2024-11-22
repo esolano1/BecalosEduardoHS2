@@ -124,6 +124,35 @@ footer {
     width: 100%;
 }
 
+
+#contact button{
+    background-color: green;
+    padding: 5px;
+    /*padding-right: 10px;*/
+    border: 1.5px solid black;
+    border-radius: 10px;
+    margin-left: 1px;
+    transition-duration: 300ms;
+
+}
+p {
+    background-color: gray;
+    width: 500px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+#contact button:hover {
+    background-color: yellowgreen;
+    color: black;
+    padding: 6px;
+    border: 1px solid blue;
+    border-radius: 20;
+    transition-duration: 300ms;
+}
+
+
+
+
 footer p {
     margin: 0;
 }
