@@ -141,6 +141,8 @@ p {
     padding-left: 10px;
     padding-right: 10px;
     margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 #contact button:hover {
     background-color: yellowgreen;
@@ -151,6 +153,53 @@ p {
     transition-duration: 300ms;
 }
 
+.flexbox {
+    background-color: red;
+    height: 400px;
+    display:flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+
+}
+
+.flexbox p {
+background-color: aqua;
+    width: 25%;
+    height: 10%;
+    margin: initial;
+
+    }
+
+.flexbox2 {
+        background-color: green;
+        margin-top: 10px;
+        height: 400px;
+        width: 100%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+     /*   overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;*/
+    
+    }
+    
+.flexbox2 p {
+    background-color: aqua;
+        width: 30%;
+        height: 10%;
+        margin: initial;
+
+ /*       flex: 0 0 auto;
+        box-sizing: border-box;*/
+    
+        }
+    
 
 
 
