@@ -142,7 +142,7 @@ p {
     padding-right: 10px;
     margin-right: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 #contact button:hover {
     background-color: yellowgreen;
