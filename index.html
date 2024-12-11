@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primera Página HTML</title>
+    <title>Becalos Eduardo Solano</title>
 
 <link rel="stylesheet" href="./index.css"
 
@@ -12,20 +12,24 @@
 
 <body>
     <header>
-        <h1>Bienvenido a mi página web</h1>
+        <h1>Best Practices - CMS (IXIASOFT)</h1>
     </header>
+
+<main>
 
     <nav>
         <ul>
-            <li><a href="#home">Inicio</a></li>
-            <li><a href="#about">Acerca de</a></li>
-            <li><a href="#contact">Contacto</a></li>
+            <li><a href="#manuals">Manuals</a></li>
+            <li><a href="#topics">Topics</a></li>
+            <li><a href="#dita">DITA Language</a></li>
+            <li><a href="#links">Links</a></li>
         </ul>
     </nav>
 
     <div style=" background-color: #333;  
     position: sticky;
-    top: 30px;  /* Se pega en la parte superior cuando llegamos a esa posición */
+    left: 30px;
+    top: 20px;  /* Se pega en la parte superior cuando llegamos a esa posición */
     color: white;
     padding: 10px;
     text-align: center; 
@@ -45,30 +49,44 @@
         Menú siempre visible     
       </div>
 
-    <section id="home">
-        <h2>Inicio</h2>
-        <p>Esta es la sección de inicio de mi página web que utilizará
-            algunos estilos de css.</p>
+    <section id="manuals">
+        <h2>Type of Manuals</h2>
+        <ul>
+            <li>Operator's Manuals: Manuals for the drivers</li>
+            <li>Service Manuals: Repair manuals for technicians</li>
+            <li>Programming Guides: Computer-parameter manuals for technicians</li>
+        </ul>
     </section>
 
-    <section id="about">
-        <h2>Acerca de</h2>
-        <p>Algunos selectores son usados, tales como, id, class, and element selectors.</p>
+    <section id="topics">
+        <h2>Type of Topics</h2>
+        <ul>
+            <li>Concept: Used for information (definition/description of components)</li>
+            <li>Task: Used for procedures (removals, disassemblies, and maintenance)</li>
+            <li>Troubleshooting: Used to trobleshoot problems of systems/components</li>
+            <li>Reference: Used for data and specifications of components (component location and specifications)</li>
+            <li>Glossentry: Used for glossary</li>
+            <li>Referable Content: Used for reusable content (only the IA can use it)</li>
+            <li>Topic: Not used</li>
+        </ul>
+
     </section>
 
-    <section id="contact">
-        <h2>Contacto</h2>
+    <section id="dita">
+        <h2>DITA Language</h2>
         <p>Discord: edwardb0910</p>
        <p>Repositorio remoto: <button><a href=" https://github.com/esolano1/BecalosEduardoHS2" target="_blank" title="Ir a mi repositorio (Eduardo Solano)">Click here</a></button></p>
          
     </section>
 
-    <div class="contenedor">
-        <h2>Link a alguna página en específico</h2>
-        <button>
-            Ejemplo de un botón con hove
-        </button>
-    </div>
+    <section id="links">
+        <h2>Links to the database</h2>
+        <p>Windchill: <button><a href="https://windchill.paccar.com/Windchill/app/" target="_blank" title="Go to Windchill">Click here</a></button></p>
+        <p>Approved Acronyms: <button><a href="https://app.smartsheet.com/b/publish?EQBCT=cf5f83089aac407cabb964328bc7c0f1" target="_blank" title="Go to Acronyms">Click here</a></button></p>
+        <p>Request a Graphic: <button><a href="https://app.smartsheet.com/b/form/74753355790f4c5c93c9e5e195912875?confirm=true" target="_blank" title="Request a Graphic">Click here</a></button></p> 
+        <p>Smartsheet: <button><a href="https://app.smartsheet.com/b/home" target="_blank" title="Go to Smartsheet">Click here</a></button></p>     
+
+    </section>
 
     <div class="flexbox">
         <p>Ejemplo de un Flex Box p1</p>
@@ -102,14 +120,13 @@
 
     <div style="background-color: lightblue; width: 100px; height: 100px;">Static Box</div>
 
-    <div style="background-color: lightgreen; width: 100px; height: 100px; position: relative; top: 20px; left: 20px;">Relative Box</div>
+    <div style="background-color: lightgreen; width: 100px; height: 100px; position: relative; top: 20px; left: 20px;">Relative Box
 
-    <div style="background-color: pink; width: 100px; height: 100px; position: absolute; top: 50px; left: 30px;">Absolute Box</div>
-
-
-
+        <div style="background-color: pink; width: 100px; height: 100px; position: absolute; top: 50px; left: 30px;">Absolute Box</div>
+    </div>
 
 
+</main>
 
 
     <footer>
