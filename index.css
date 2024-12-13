@@ -49,6 +49,8 @@ body {
     font-family: Arial, sans-serif; /* Establece la fuente */
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
     background-color: gray; /* Color de fondo */
 }
 
@@ -185,43 +187,7 @@ section p button:hover {
 
 
 }
-
-.flexbox p {
-background-color: aqua;
-    width: 25%;
-    height: 10%;
-    margin: initial;
-
-    }
-
-.flexbox2 {
-        background-color: green;
-        margin-top: 10px;
-        height: 400px;
-        width: 100%;
-        display:flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: flex-start;
-        flex-wrap: wrap;
-
-     /*   overflow-x: auto;
-        overflow-y: hidden;
-        white-space: nowrap;*/
-    
-    }
-    
-.flexbox2 p {
-    background-color: aqua;
-        width: 30%;
-        height: 10%;
-        margin: initial;
-
- /*       flex: 0 0 auto;
-        box-sizing: border-box;*/
-    
-        }
-    
+ 
 
 main {
     width: 100vw;
