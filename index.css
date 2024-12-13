@@ -14,7 +14,7 @@ color:red;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 
@@ -68,7 +68,12 @@ header {
     background-color: #333; /* Color de fondo oscuro */
     color: white; /* Color de texto blanco */
     text-align: center;
-    padding: 20px 0;
+    padding: 2% 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
 }
 
 header h1 {
@@ -79,13 +84,16 @@ header h1 {
 /* Estilos para el menú de navegación */
 nav {
     background-color: #444; /* Color de fondo del menú */
+    position: sticky;
+    top: 20px;
 }
 
 nav ul {
     list-style-type: none; /* Elimina los puntos de la lista */
     margin: 0;
-    padding: 0;
+    padding: 1%;
     text-align: center;
+    z-index: 1000;
 }
 
 nav ul li {
@@ -126,7 +134,9 @@ ul {
 
 html {
     scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 
 ul li {
 margin-left: 3%;
@@ -137,7 +147,7 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px 0px;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -155,6 +165,14 @@ footer {
 
 }
 
+section p button:hover {
+    background-color: yellowgreen;
+    color: black;
+    padding: 6px;
+    border: 1px solid blue;
+    border-radius: 20;
+    transition-duration: 300ms;
+}
 
 p {
 
@@ -165,6 +183,7 @@ p {
     display: flex;
 
 }
+
 #contact button:hover {
     background-color: yellowgreen;
     color: black;
@@ -224,6 +243,9 @@ background-color: aqua;
 
 
 
+
 footer p {
     margin: 0;
+    font-size: 1em;
+    text-align: center;
 }
