@@ -189,7 +189,7 @@ section p button:hover {
 }
  
 
-main {
+html {
     width: 100vw;
     height: 100vh;
 }
