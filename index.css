@@ -44,16 +44,6 @@ transition-duration: 2s;
 
 
 
-/* Style by class*/
-.prueba {
-    color: blue;
-}
-
-/* Style by identifier*/
-#unico {
-    color: red;
-}
-
 /* Style by tag style spefically for the body*/
 body {
     font-family: Arial, sans-serif; /* Establece la fuente */
@@ -174,15 +164,7 @@ section p button:hover {
     transition-duration: 300ms;
 }
 
-p {
 
-    width: 600px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-right: 10px;
-    display: flex;
-
-}
 
 #contact button:hover {
     background-color: yellowgreen;
@@ -241,7 +223,10 @@ background-color: aqua;
         }
     
 
-
+main {
+    width: 100vw;
+    height: 100vh;
+}
 
 
 footer p {
