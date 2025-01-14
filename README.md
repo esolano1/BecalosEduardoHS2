@@ -1,2 +1,2 @@
-# BecalosEduardoHS2
-Repositorio del Módulo 2
+# PACCAR-JANA Page
+Repositorio de página de PACCAR

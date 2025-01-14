@@ -124,8 +124,8 @@ nav ul li a:hover {
 
 /* Estilos para las secciones */
 section {
-
-    padding: 2% 2%;
+    font-size: large;
+    padding: 2% 3.5%;
     margin: 3%;
     /*background-color: rgb(224, 213, 213);  Fondo blanco para las secciones */
     background-color: rgb(120, 227, 227);
@@ -133,11 +133,6 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor de las secciones */
 }
 
-#bestPractices div {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;    
-}
 
 #bestPractices div {
     display: flex;
@@ -146,12 +141,17 @@ section {
     justify-content: space-around;    
 }
 
-#bestPractices p {
+#bestPractices a p {
 background-color: #9a9abc;
 margin: 2%;
-padding: 3%;
+padding: 20%;
+text-align: center;
 
 }
+
+#bestPractices a {
+    width: 20%;
+    }
 
 
 h2 {
