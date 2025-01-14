@@ -92,7 +92,7 @@ header h1 {
 /* Estilos para el menú de navegación */
 nav {
     /*background-color: #444;  Color de fondo del menú */
-    background-color: rgb(144, 37, 37);
+    background-color: rgb(108, 89, 140);
     position: sticky;
     top: 20px;
 }
@@ -146,7 +146,7 @@ background-color: #9a9abc;
 margin: 2%;
 padding: 20%;
 text-align: center;
-
+width: 100%;
 }
 
 #bestPractices a {
@@ -194,6 +194,16 @@ footer {
         align-items: center;
         width: 100%;
     }
+
+    #bestPractices div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+
+    #bestPractices a {
+        width: 40%;
+        }
 
 }
 
