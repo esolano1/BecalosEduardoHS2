@@ -17,8 +17,8 @@ color:red;
     
 }
 html {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -133,15 +133,14 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor de las secciones */
 }
 
-
-#bestPractices div {
+#bestpractices div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;    
 }
 
-#bestPractices a p {
+#bestpractices a p {
 background-color: #9a9abc;
 margin: 2%;
 padding: 20%;
@@ -149,9 +148,29 @@ text-align: center;
 width: 100%;
 }
 
-#bestPractices a {
+#bestpractices a {
     width: 20%;
     }
+
+#contacts div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;    
+    }
+    
+#contacts a p {
+    background-color: #9a9abc;
+    margin: 2%;
+    padding: 20%;
+    text-align: center;
+    width: 100%;
+    }
+    
+#contacts a {
+        width: 20%;
+        }
+    
 
 
 h2 {
