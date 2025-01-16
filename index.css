@@ -204,7 +204,7 @@ footer {
 
 @media screen
 
-    and (max-device-width: 500px) {
+    and (max-device-width: 665px) {
     
     nav ul {
         display: flex;
@@ -214,7 +214,7 @@ footer {
         width: 100%;
     }
 
-    #bestPractices div {
+    #bestpractices div {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -238,6 +238,18 @@ footer {
 
 header img {
     width: 100px;
+}
+
+}
+
+@media screen
+
+    and (max-device-width: 780px) {
+    
+#contacts div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 }
