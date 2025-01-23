@@ -92,7 +92,7 @@ header h1 {
 /* Estilos para el menú de navegación */
 nav {
     /*background-color: #444;  Color de fondo del menú */
-    background-color: rgb(108, 89, 140);
+    background-color: rgb(72, 66, 83);
     position: sticky;
     top: 20px;
 }
@@ -140,8 +140,9 @@ section {
     justify-content: space-around;    
 }
 
+/* Best Practices with the three blocks */
 #bestpractices a p {
-background-color: #9a9abc;
+background-color: #7b7b95;
 margin: 2%;
 padding: 20%;
 text-align: center;
@@ -158,9 +159,10 @@ width: 100%;
         flex-wrap: wrap;
         justify-content: space-around;    
     }
-    
+
+/* Contacts block */
 #contacts a p {
-    background-color: #9a9abc;
+    background-color: #7b7b95;
     margin: 2%;
     padding: 20%;
     text-align: center;
@@ -191,7 +193,8 @@ margin-left: 3%;
 /* Estilos para el pie de página */
 footer {
     /*background-color: #333; */
-    background-color: rgb(69, 84, 133);
+/*    background-color: rgb(69, 84, 133); */
+    background-color: rgb(54, 1, 145);
     color: white;
     text-align: center;
     padding: 10px 0px;

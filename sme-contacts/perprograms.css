@@ -23,7 +23,8 @@ body {
 
 header {
     /*background-color: #333; Color de fondo oscuro */
-    background-color: rgb(108, 89, 140);
+   /* background-color: rgb(108, 89, 140); */
+    background-color: rgb(172, 3, 3);
     color: white; /* Color de texto blanco */
     text-align: center;
     padding: 2% 6%;
@@ -60,6 +61,7 @@ section {
 
 #programsstyle a {
 /*background-color: bisque; */
+
 width: 40%;
 text-decoration: none;
 color: black;
@@ -67,7 +69,8 @@ height: 80%;
     }
 
 #programsstyle a p {
-background-color: #9a9abc;
+/* background-color: #9a9abc; */
+background-color: #7b7b95;
 margin: 2%;
 padding: 20%;
 text-align: center;
