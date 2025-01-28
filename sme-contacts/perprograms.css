@@ -62,7 +62,7 @@ section {
 #programsstyle a {
 /*background-color: bisque; */
 
-width: 40%;
+width: 30%;
 text-decoration: none;
 color: black;
 height: 80%;
@@ -71,6 +71,7 @@ height: 80%;
 #programsstyle a p {
 /* background-color: #9a9abc; */
 background-color: #7b7b95;
+border-radius: 20px;
 margin: 2%;
 padding: 20%;
 text-align: center;

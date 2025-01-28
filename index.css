@@ -143,6 +143,7 @@ section {
 /* Best Practices with the three blocks */
 #bestpractices a p {
 background-color: #7b7b95;
+border-radius: 20px;
 margin: 2%;
 padding: 20%;
 text-align: center;
@@ -163,6 +164,7 @@ width: 100%;
 /* Contacts block */
 #contacts a p {
     background-color: #7b7b95;
+    border-radius: 20px;
     margin: 2%;
     padding: 20%;
     text-align: center;
