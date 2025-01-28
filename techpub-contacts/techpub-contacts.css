@@ -56,3 +56,20 @@ section div ul ul {
     margin-top: .25%;
     margin-bottom: 1%;
 }
+
+
+@media screen
+
+    and (max-device-width: 600px) {
+    
+        section {
+            font-size: large;
+            padding: .8% 3.5% 2% 5.5%;
+            margin: 1% 2%;
+            /*background-color: rgb(224, 213, 213);  Fondo blanco para las secciones */
+            background-color: rgb(120, 227, 227);
+            border-radius: 8px; /* Bordes redondeados */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor de las secciones */
+        }
+
+}

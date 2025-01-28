@@ -77,3 +77,34 @@ padding: 20%;
 text-align: center;
 
 }
+
+@media screen
+
+    and (max-device-width: 520px) {
+    
+        section {
+            font-size: large;
+            padding: 2% 3.5%;
+            margin: 3%;
+            /*background-color: rgb(224, 213, 213);  Fondo blanco para las secciones */
+            background-color: rgb(120, 227, 227);
+            border-radius: 8px; /* Bordes redondeados */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor de las secciones */
+            display: flex;        
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+
+        #programsstyle a {
+            /*background-color: bisque; */
+            
+            width: 40%;
+            text-decoration: none;
+            color: black;
+            height: 80%;
+                }
+            
+
+}
