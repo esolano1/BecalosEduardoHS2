@@ -84,3 +84,24 @@ div p {
         }
 
 }
+
+
+
+
+
+
+
+
+/* Test */
+.panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #3c69ab;
+    padding: 0 10px;
+  }
+  .panel.open {
+    max-height: 200px; /* Ajusta según el contenido */
+    padding: 10px;
+  }
+
